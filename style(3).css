@@ -1,0 +1,31 @@
+body{
+	background-image: url(pexels-photo-450066.jpeg);
+}	
+#teks{
+	background: #dcdcdc;
+	height: 20px;
+	width: 1500px;
+	margin: auto;
+}
+
+#menu ul li{
+	display: inline; margin: left: 20px ; line-height: 30px; font-size: 18px; border: 1px solid royalblue; padding: 3px 15px;
+	border-radius: 10px; background: lightblue;
+}
+#menu ul li : hover{
+	background: #990033;
+}
+#menu ul li a{color: #rebeccapurple;}
+
+#header{
+	background: floralwhite;
+	height: 200px;
+	width: 790px;
+	margin: auto;
+
+}
+
+#contact{
+	display: inline; margin: left: 20px ; line-height: 30px; font-size: 18px; border: 1px solid royalblue; padding: 3px 15px;
+	border-radius: 10px; background: #989999;
+}

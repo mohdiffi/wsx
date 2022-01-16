@@ -1,0 +1,46 @@
+body{
+	background-image: url(pexels-photo-450066.jpeg);
+}	
+
+
+#txt{
+	font-size: 70px;
+	float: right;
+	border: 5px solid royalblue;
+	background: antiquewhite;
+
+
+}
+#menu ul li{
+     display: inline; margin: left: 20px ; line-height: 30px; font-size: 18px; border: 1px solid royalblue; padding: 3px 15px;
+	 border-radius: 10px; background: lightblue;
+}
+#menu ul li : hover{
+	background: #990033;
+}
+#menu ul li a{color: royalblue;}
+
+#tengah{
+	background: ghostwhite;
+	height: 250px;
+	width: 220px;
+	margin: auto;
+
+
+}
+
+#teks{
+	background: #dcdcdc;
+	height: 20px;
+	width: 1500px;
+	margin: auto;
+}
+table, th, td {
+  border: 3px solid white;
+  border-collapse: collapse;
+
+
+}
+th, td {
+  background-color: burlywood;
+}

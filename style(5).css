@@ -1,0 +1,41 @@
+body{
+	background-image: url(pexels-photo-450066.jpeg);
+}
+	
+#menu ul li{
+	display: inline; margin: left: 20px ; line-height: 30px; font-size: 18px; border: 1px solid royalblue; padding: 3px 15px;
+	border-radius: 10px; background: lightblue;
+}
+#menu ul li : hover{
+	background: #990033;
+}
+#menu ul li a{color: royalblue;}
+
+
+#kanan{
+	background :grey;
+	height: 640px;
+	width: 300px;
+	float: left;
+}
+#kiri{
+	background: whitesmoke;
+	height: 640px;
+	width: 300px;
+	float: left;
+}
+
+#table{
+	background: honeydew;
+	width:  1300px;
+	height: 640px;
+margin: auto;
+
+
+}
+#teks{
+	background: #dcdcdc;
+	height: 20px;
+	width: 1500px;
+	margin: auto;
+}

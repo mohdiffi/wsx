@@ -1,0 +1,90 @@
+body{
+	background-image: url(pexels-photo-450066.jpeg);
+}
+#teks{
+	background: #dcdcdc;
+	height: 20px;
+	width: 1500px;
+	margin: auto;
+}
+#menu ul li{
+	display: inline; margin: left: 20px ; line-height: 30px; font-size: 18px; border: 1px solid royalblue; padding: 3px 15px;
+	border-radius: 10px; background: lightblue;
+}
+#menu ul li : hover{
+	background: #990033;
+}
+#menu ul li a{color: royalblue;}
+
+#atas{
+	background: #f0f8ff;
+	width: 1300px;
+	height:700px;
+	margin: auto;
+}
+#header{
+	background: floralwhite;
+	height: 150px;
+	width: 1300px;
+	overflow: hidden;
+	text-align: center;
+
+}
+#kiri{
+	width: 650px;
+	height: 500px;
+	background: powderblue;
+	float: left;
+}
+#kanan{
+	width: 650px;
+	height: 500px;
+	background: skyblue;
+	float: left;
+}
+
+@keyframes slider{
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: 0%;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+#slider{
+	overflow: hidden;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+#slider figure{
+	position: relative;
+	width: 600%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 10s slider infinite;
+}

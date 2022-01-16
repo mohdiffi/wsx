@@ -1,0 +1,48 @@
+body{
+	background-image: url(pexels-photo-450066.jpeg);
+}
+
+#tajuk{
+	font: color="black";
+}
+
+#teks{
+	background: #dcdcdc;
+	height: 20px;
+	width: 1500px;
+	overflow: hidden;
+}
+
+#tengah{
+	background: ghostwhite;
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}
+
+#menu ul li{
+	display: inline; margin: left: 20px ; line-height: 30px; font-size: 18px; border: 1px solid royalblue; padding: 3px 15px;
+	border-radius: 10px; background: lightblue;
+}
+#menu ul li : hover{
+	background: #990033;
+}
+#menu ul li a{color: #rebeccapurple;}
+
+#canvas{
+	text-align: left;
+
+}
+#table, th, td {
+  border:3px solid black;
+
+}
+
+#contact{
+	background: whitesmoke;
+	height: 40px;
+	width: 1500px;
+	overflow: hidden;
+
+
+}

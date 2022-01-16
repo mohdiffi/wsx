@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Education</title>
+	<link rel="stylesheet" type="text/css" href="style(4).css">
+</head>
+
+<body>
+<div id="teks">
+		     <marquee scrolldelay="100" onmouseover ="this.stop()" onmouseout="this.start()" style="font-size-adjust: 19px;">NEVER LET FORMAL EDUCATION GET IN THE WAY OF YOUR LEARNING...</marquee>
+		</div>
+<div id="menu">
+			<ul><center>
+				<li><a href="file:///C:/Users/Iffi/OneDrive/Desktop/website-personal-iffi/index.html">Home</a></li>
+				<li><a href="file:///C:/Users/Iffi/OneDrive/Desktop/website-personal-iffi/biodata.html">Biodata</a></li>
+				<li><a href="file:///C:/Users/Iffi/OneDrive/Desktop/website-personal-iffi/experience.html">Experience</a></li>
+				<li><a href="file:///C:/Users/Iffi/OneDrive/Desktop/website-personal-iffi/educational.html">Education</a></li>
+				<li><a href="file:///C:/Users/Iffi/OneDrive/Desktop/website-personal-iffi/family.html">Family</a></li>
+				<li><a href="file:///C:/Users/Iffi/OneDrive/Desktop/website-personal-iffi/gallery.html">Gallery</a></li>
+			</ul></center>
+
+  <div id="tengah">
+
+	<img src="5c0de591-c8c5-42ff-b1fb-6d4da02c5f0a.jfif" style="width :250px; height: 250px;">
+</div>
+
+
+<dl>
+
+  <dt style="font-size: 30px;">Journey in education</dt>
+  <dd>- My learning information from elementary until now.</dd>
+</dl>
+
+<table style="width:60%">
+  <tr>
+    <th>Primary school</th>
+    <th>Secondary school</th> 
+    <th>University level</th>
+  </tr>
+  <tr>
+    <td>Sekolah Kebangsaan Gual Tinggi</td>
+    <td>Sekolah Menengah Kebangsaan Agama Tok Bachok</td>
+    <td>University Technology Mara(Uitm)</td>
+  </tr>
+  <tr>
+    <td>2007 to 2013</td>
+    <td>2014 to 2018</td>
+    <td>2018 to 2022</td>
+  </tr>
+  <tr>
+    <td>Result UPSR [4A 1B]</td>
+    <td>Result PT3 [8A 2B ] SPM [7A 2B 1C]</td>
+    <td>Result Semester 4 [GPA 3.54]</td>
+  </tr>
+</table>
+
+
+<body onload="startTime()">
+
+
+<div id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+</body>
+</html>
